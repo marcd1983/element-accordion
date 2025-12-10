@@ -1,0 +1,4 @@
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - Antlion\ElementAccordion\Extension\FAQSchemaExtension

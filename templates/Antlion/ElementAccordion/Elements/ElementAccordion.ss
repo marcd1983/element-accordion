@@ -1,10 +1,10 @@
-<div class="cell">
+
 <% if $Title && $ShowTitle %>
     <% with $HeadingTag %>
         <{$Me} class="element-title">$Up.Title.XML</{$Me}>
     <% end_with %>
 <% end_if %>
-<% if $Content %><div class="element__content">$Content</div><% end_if %>
+<% if $Content %><div class="element-content">$Content</div><% end_if %>
 
 <% if $Panels %>
     <ul id="accordion-{$ID}" class="accordion" data-accordion>
@@ -27,4 +27,3 @@
         <% end_loop %>
     </ul>
 <% end_if %>
-</div>

@@ -17,7 +17,7 @@ class FAQSchemaExtension extends Extension
                 $rest[] = $node;
             }
         }
-        if (count($questions) >= 2) {
+        if (count($questions) >= 1) {
             $rest[] = [
                 '@type'      => 'FAQPage',
                 '@id'        => rtrim($pageAbsURL, '/') . '/#faq',

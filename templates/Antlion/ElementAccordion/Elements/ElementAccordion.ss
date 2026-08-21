@@ -1,3 +1,4 @@
+<% cached $ID, $LastEdited, $Panels.Count, $Panels.Max('LastEdited') %>
 <% if $Title && $ShowTitle %>
     <% with $HeadingTag %>
         <{$Me} class="element-title">$Up.Title.XML</{$Me}>
@@ -33,3 +34,4 @@
         <% end_loop %>
     </ul>
 <% end_if %>
+<% end_cached %>

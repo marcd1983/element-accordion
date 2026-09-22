@@ -15,7 +15,7 @@
                     <div class="grid-x grid-margin-x grid-margin-y">
                         <% if $Image %>
                             <div class="cell large-2">
-                                <img src="$Image.URL" class="img-responsive" alt="$Title.ATT">
+                                <% include ResponsiveImage Image=$Image, Alt=$Title, CSSClass="img-responsive" %>
                             </div>
                         <% end_if %>
                         <div class="cell auto">

@@ -1,0 +1,26 @@
+en:
+  Antlion\ElementAccordion\Elements\ElementAccordion:
+    BlockType: Accordion
+    ContentDescription: 'optional. Add introductory copy to your accordion.'
+    ContentLabel: Intro
+    PLURALNAME: blocks
+    PLURALS:
+      one: 'A block'
+      other: '{count} blocks'
+    PanelsLabel: Panels
+    SINGULARNAME: block
+    db_Content: Content
+    db_EnableFAQSchema: 'EnableFAQ schema'
+    has_many_Panels: Panels
+  Antlion\ElementAccordion\Models\AccordionPanel:
+    PLURALNAME: 'accordion panels'
+    PLURALS:
+      one: 'An accordion panel'
+      other: '{count} accordion panels'
+    SINGULARNAME: 'accordion panel'
+    db_Content: Content
+    db_Sort: Sort
+    db_Title: Title
+    has_many_Links: Links
+    has_one_Accordion: Accordion
+    has_one_Image: Image
